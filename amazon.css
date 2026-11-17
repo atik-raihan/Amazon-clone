@@ -101,3 +101,27 @@
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+.panel{
+    height: 39px;
+    background-color: #222f2e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 50px;
+    
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;    
+}
+
+.panel-deals{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
