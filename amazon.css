@@ -127,9 +127,9 @@
 }
 
 .hero-section{
-    background-image:url("img3.jpg") ;
+    background-image:url("hero1.jpg") ;
     background-size: cover;
-    height: 400px;
+    height: 380px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -150,5 +150,35 @@
 
 }
 .hero-msg a{
+    color: #007185;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+.box{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box p{
     color: #007185;
 }
